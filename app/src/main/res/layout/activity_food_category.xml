@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white">
-
+    android:background="#3A6EA5">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,40 +23,52 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginLeft="230dp"
-            android:src="@drawable/logo1" />
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/riduse"
+>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_gravity="center"
+
+
+        android:text="what's this"
+        android:textAlignment="center"
+        android:textColor="#FF6700"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:padding="16dp"
+        android:fontFamily="@font/comic_sans_ms" />
+
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/food1" />
 
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_gravity="center"
-
-
-        android:layout_marginLeft="12dp"
-        android:fontFamily="@font/comic_sans_ms"
-        android:padding="16dp"
-        android:text="what's this color? "
-        android:textAlignment="center"
-        android:textColor="#F79256"
-        android:textSize="40dp"
-        android:textStyle="bold" />
-
-    <ImageView
-
-        android:id="@+id/questionImage"
-        android:layout_marginTop="12dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:src="@drawable/image1"/>
-
     <LinearLayout
-
-        android:layout_width="400dp"
-        android:layout_height="322dp"
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         android:orientation="vertical">
 
@@ -67,64 +78,52 @@
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="2"
+            android:backgroundTint="#FBD1A2"
             android:text="Red"
-            android:textColor="#1D4E89"
+            android:textColor="#FF6700"
             android:textSize="30dp"
             android:textStyle="bold"
             android:fontFamily="@font/comic_sans_ms" />
 
         <Button
+            android:backgroundTint="#FBD1A2"
             android:id="@+id/reponse2"
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA"
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="2"
             android:text="Black"
-            android:textColor="#1D4E89"
+            android:textColor="#FF6700"
             android:textSize="30dp"
             android:textStyle="bold"
             android:fontFamily="@font/comic_sans_ms" />
 
         <Button
+            android:backgroundTint="#FBD1A2"
             android:id="@+id/reponse3"
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="2"
+
+
             android:text="Pupple"
-            android:textColor="#1D4E89"
+            android:textColor="#FF6700"
             android:textSize="30dp"
             android:textStyle="bold"
             android:fontFamily="@font/comic_sans_ms" />
 
         <Button
+            android:backgroundTint="#FBD1A2"
             android:id="@+id/reponse4"
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="2"
+
             android:text="Orange"
-            android:textColor="#1D4E89"
+            android:textColor="#FF6700"
             android:textSize="30dp"
             android:textStyle="bold"
             android:fontFamily="@font/comic_sans_ms" />
+
 
     </LinearLayout>
 

@@ -2,10 +2,9 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/white">
-
+    android:background="#7DCFB6">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +12,7 @@
         android:layout_marginTop="12dp"
         android:orientation="horizontal">
 
-        <ImageView
+        <ImageButton
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/flesh"
@@ -24,50 +23,45 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginLeft="230dp"
-            android:src="@drawable/logo1" />
+            android:src="@drawable/logo2" />
 
 
     </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_gravity="center"
-
-
-        android:layout_marginLeft="12dp"
-        android:fontFamily="@font/comic_sans_ms"
-        android:padding="16dp"
-        android:text="what's this color? "
-        android:textAlignment="center"
-        android:textColor="#F79256"
-        android:textSize="40dp"
-        android:textStyle="bold" />
-
-    <ImageView
-
-        android:id="@+id/questionImage"
-        android:layout_marginTop="12dp"
-        android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:src="@drawable/image1"/>
-
     <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_shape"
+        >
 
+
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/comic_sans_ms"
+            android:src="@drawable/elem1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
         android:layout_width="400dp"
         android:layout_height="322dp"
         android:layout_gravity="center"
         android:orientation="vertical">
-
-
         <Button
             android:id="@+id/reponse1"
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
+            android:backgroundTint="#FBD1A2 "
             android:shadowColor="#000000"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -83,7 +77,7 @@
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA"
+            android:backgroundTint="#FBD1A2"
             android:shadowColor="#000000"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -99,7 +93,7 @@
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
+            android:backgroundTint="#FBD1A2 "
             android:shadowColor="#000000"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -115,7 +109,7 @@
             android:layout_gravity="center"
             android:layout_width="390dp"
             android:layout_height="70dp"
-            android:backgroundTint="#00B2CA "
+            android:backgroundTint="#FBD1A2 "
             android:shadowColor="#000000"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -127,6 +121,4 @@
             android:fontFamily="@font/comic_sans_ms" />
 
     </LinearLayout>
-
-
-</LinearLayout>
+    </LinearLayout>

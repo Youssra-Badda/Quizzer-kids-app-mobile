@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape with rounded corners and solid white color -->
+    <item>
+        <shape>
+            <corners android:radius="60dp" /> <!-- Change the radius to your desired value -->
+            <solid android:color="#FBD1A2" />
+        </shape>
+    </item>
+
+
+
+</layer-list>
