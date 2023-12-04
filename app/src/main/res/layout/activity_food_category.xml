@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3A6EA5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/flesh"
+            android:backgroundTint="#F79256"/>
+
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/riduse"
+>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_gravity="center"
+
+
+        android:text="what's this"
+        android:textAlignment="center"
+        android:textColor="#FF6700"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:padding="16dp"
+        android:fontFamily="@font/comic_sans_ms" />
+
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/food1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/reponse1"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#FBD1A2"
+            android:text="Red"
+            android:textColor="#FF6700"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/comic_sans_ms" />
+
+        <Button
+            android:backgroundTint="#FBD1A2"
+            android:id="@+id/reponse2"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+            android:text="Black"
+            android:textColor="#FF6700"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/comic_sans_ms" />
+
+        <Button
+            android:backgroundTint="#FBD1A2"
+            android:id="@+id/reponse3"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+
+
+            android:text="Pupple"
+            android:textColor="#FF6700"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/comic_sans_ms" />
+
+        <Button
+            android:backgroundTint="#FBD1A2"
+            android:id="@+id/reponse4"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+
+            android:text="Orange"
+            android:textColor="#FF6700"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/comic_sans_ms" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

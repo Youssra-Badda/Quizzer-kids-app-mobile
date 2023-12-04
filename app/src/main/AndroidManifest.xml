@@ -13,7 +13,16 @@
         android:theme="@style/Theme.Quizzerapp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".FoodCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ColorCategory"
+            android:exported="false" />
+        <activity
+            android:name=".FinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SchoolSupplies"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
