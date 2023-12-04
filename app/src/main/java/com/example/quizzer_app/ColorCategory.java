@@ -40,7 +40,7 @@ public class ColorCategory extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_color);
         answerButton1 = findViewById(R.id.reponse1);
         answerButton2 = findViewById(R.id.reponse2);
         answerButton3 = findViewById(R.id.reponse3);
