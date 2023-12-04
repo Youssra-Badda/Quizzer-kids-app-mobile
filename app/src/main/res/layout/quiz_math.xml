@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/CDB4DB">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp">
+        <ImageView
+            android:id="@+id/back"
+            android:onClick="onAnswerClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/kids"
+            android:layout_marginLeft="309dp"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose the correct answer"
+            android:gravity="center"
+            android:fontFamily="@font/comic_sans_ms"
+            android:textSize="25dp"
+            android:shadowColor="#808080"
+            android:shadowDx="7"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:textColor="@color/blue2"
+            android:layout_marginTop="30dp"
+
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/Question"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/things"
+            android:background="@drawable/rounded_corners"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_answers"
+            android:text="Kindy"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:layout_gravity="center"
+            android:onClick="onAnswerClick">
+
+        </TextView>
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_answers"
+            android:text="Kindy"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:layout_gravity="center"
+            android:onClick="onAnswerClick">
+
+        </TextView>
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_answers"
+            android:text="Kindy"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:layout_gravity="center"
+            android:onClick="onAnswerClick">
+
+        </TextView>
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_answers"
+            android:text="Kindy"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:layout_gravity="center"
+            android:onClick="onAnswerClick">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

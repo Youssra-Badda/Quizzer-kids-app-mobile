@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:background="@drawable/tiger_mignon">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textAppName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:fontFamily="@font/comic_sans_ms"
+        android:shadowColor="#808080"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:text="Kidz Quizzer"
+        android:textColor="#FF5722"
+        android:textSize="45sp"
+        android:gravity="center"
+        >
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="190dp"
+        android:layout_height="90dp"
+        android:onClick="onPlayButtonClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80mm"
+        android:text="Play"
+        android:textSize="35sp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:backgroundTint="#FF5722"
+        android:drawableLeft="@drawable/play">
+
+
+
+
+    </Button>
+
+
+</LinearLayout>

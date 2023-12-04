@@ -21,6 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".QuizCategorie"
+            android:exported="false"/>
+        <activity
+            android:name=".QuizMath"
+            android:exported="false"/>
+        <activity
+            android:name=".FinaleScore"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
