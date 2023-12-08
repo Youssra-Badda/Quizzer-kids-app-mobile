@@ -115,6 +115,52 @@ public class QuizMath extends AppCompatActivity {
         List<String> answers11 = Arrays.asList("4 , 6 , 8 , 9", "1 , 4 , 6 , 1 ", "2 , 5 , 6 , 9", "9 , 10 , 11 , 12");
         Question question11 = new Question("qst11", answers11, 2);
         questions.add(question11);
+
+        // Question 12
+        List<String> answers12 = Arrays.asList("4 , 6 , 8 , 9", "1 , 4 , 6 , 1 , 23", "2 , 5 , 6 , 9 , 12", "12 , 18 , 24 , 28 , 32");
+        Question question12 = new Question("qst12", answers12, 3);
+        questions.add(question12);
+
+        // Question 13
+        List<String> answers13 = Arrays.asList("14 , 16 , 8 , 9", "1 , 4 , 6 , 1 ", "2 , 5 , 7 , 8 , 11 ,13", "9 , 10 , 11 , 12");
+        Question question13 = new Question("qst13", answers13, 2);
+        questions.add(question13);
+
+        // Question 14
+        List<String> answers14 = Arrays.asList("4 , 16 , 8 , 9", "2 , 3 , 7 , 9 ", "2 , 15 , 0 , 8 , 11 ,13", "9 , 10 , 11 , 12");
+        Question question14 = new Question("qst14", answers14, 1);
+        questions.add(question14);
+
+        // Question 15
+        List<String> answers15 = Arrays.asList("16 , 18", "4 , 5 ", "2 , 2", " 11 , 12 ");
+        Question question15 = new Question("qst15", answers15, 1);
+        questions.add(question15);
+
+        // Question 16
+        List<String> answers16 = Arrays.asList("16 , 18", "4 , 5 ", "2 , 2", " 11 , 12 ");
+        Question question16 = new Question("qst16", answers16, 1);
+        questions.add(question16);
+
+        // Question 17
+        List<String> answers17 = Arrays.asList("16 ", "4  ", "2 ", " 5 ");
+        Question question17 = new Question("qst17", answers17, 3);
+        questions.add(question17);
+
+        // Question 16
+        List<String> answers18 = Arrays.asList("1", "4  ", "2", " 12 ");
+        Question question18 = new Question("qst18", answers18, 1);
+        questions.add(question18);
+
+        // Question 16
+        List<String> answers19 = Arrays.asList("5", "4  ", "12", " 10 ");
+        Question question19 = new Question("qst19", answers19, 0);
+        questions.add(question19);
+
+        // Question 20
+        List<String> answers20 = Arrays.asList("10", "8 ", "2 ", " 4");
+        Question question20 = new Question("qst20", answers20, 3);
+        questions.add(question20);
+
     }
 
     // Fonction de gestionnaire de clic pour les réponses

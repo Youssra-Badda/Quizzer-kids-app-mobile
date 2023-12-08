@@ -35,7 +35,7 @@
         android:layout_height="90dp"
         android:onClick="onPlayButtonClick"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80mm"
+        android:layout_marginTop="85mm"
         android:text="Play"
         android:textSize="35sp"
         android:fontFamily="@font/comic_sans_ms"

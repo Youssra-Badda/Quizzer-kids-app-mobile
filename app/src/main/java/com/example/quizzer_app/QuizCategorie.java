@@ -17,6 +17,7 @@ public class QuizCategorie extends AppCompatActivity {
     private Button math;
 
     private Button school;
+    private Button nature;
 
     private ImageView back;
     @Override
@@ -29,6 +30,7 @@ public class QuizCategorie extends AppCompatActivity {
         math=findViewById(R.id.btnmath);
         back=findViewById(R.id.back);
         school=findViewById(R.id.btnacc);
+        nature=findViewById(R.id.btnNature);
         school.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
