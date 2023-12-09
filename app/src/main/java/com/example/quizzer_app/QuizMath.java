@@ -203,7 +203,7 @@ public class QuizMath extends AppCompatActivity {
 
     // Affiche le score final
     private void showFinalScore() {
-        Intent finalescore=new Intent(QuizMath.this,FinaleScore.class);
+        Intent finalescore=new Intent(QuizMath.this,ResultAcitivty.class);
         long timeSpentInSeconds = (60000 - timeLeftInMillis) / 1000;
         finalescore.putExtra("TIME_SPENT", timeSpentInSeconds);
         finalescore.putExtra("CORRECT_ANSWERS", correctAnswers);

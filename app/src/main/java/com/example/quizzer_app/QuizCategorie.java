@@ -53,7 +53,7 @@ public class QuizCategorie extends AppCompatActivity {
         animals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myintent=new Intent(QuizCategorie.this,QuizAnimals.class);
+                Intent myintent=new Intent(QuizCategorie.this,Animals.class);
                 startActivity(myintent);
                 animateButton(animals);
             }
@@ -80,6 +80,14 @@ public class QuizCategorie extends AppCompatActivity {
                 Intent myintent=new Intent(QuizCategorie.this,QuizMath.class);
                 startActivity(myintent);
                 animateButton(math);
+            }
+        });
+        nature.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myintent=new Intent(QuizCategorie.this,Nature.class);
+                startActivity(myintent);
+                animateButton(nature);
             }
         });
     }
