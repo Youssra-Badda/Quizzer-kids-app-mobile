@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC8DD"
+    tools:context=".Animals">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#BDE0FE">
+
+        <ImageView
+            android:id="@+id/animal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/animal1"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+    <!-- Ajoutez les boutons de choix ici -->
+    <Button
+        android:id="@+id/choice1"
+        style="@style/ChoiceButton"
+        android:text="Cheval"
+        android:background="@drawable/button_background"
+        />
+
+    <Button
+        android:id="@+id/choice2"
+        style="@style/ChoiceButton"
+        android:text="Canard"
+        android:background="@drawable/button_background"
+        />
+
+    <Button
+        android:id="@+id/choice3"
+        style="@style/ChoiceButton"
+        android:text="Chèvre"
+        android:background="@drawable/button_background"
+        />
+
+    <Button
+        android:id="@+id/choice4"
+        style="@style/ChoiceButton"
+        android:text="Zèbre"
+        android:background="@drawable/button_background"
+        />
+</LinearLayout>

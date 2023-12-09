@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC8DD"
+    android:padding="16dp"
+    tools:context=".ResultActivity">
+
+    <Button
+        android:id="@+id/result"
+        style="@style/ChoiceButton"
+        android:text="hhhhh"
+        android:background="@drawable/button_background"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#BDE0FE">
+
+
+        <ImageView
+            android:id="@+id/finale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fianl"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+    <!-- Ajoutez les boutons de choix ici -->
+
+
+    <Button
+        android:id="@+id/score"
+        style="@style/ChoiceButton"
+        android:text=" hhhhhhhh"
+        android:background="@drawable/button_background"
+        />
+
+    <Button
+        android:id="@+id/time"
+        style="@style/ChoiceButton"
+        android:text="hhhhhhhhh "
+        android:background="@drawable/button_background"
+        />
+
+
+
+
+
+</LinearLayout>
